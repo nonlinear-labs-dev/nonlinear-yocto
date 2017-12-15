@@ -1,7 +1,7 @@
 Yocto builds
 ============
 
-To start a build on a build server for Nepos 1, run this:
+To create an image for nonlinear embedded devices, run this:
 ```
 $ repo init -u git@github.com:pascalhuerst/nonlinear-yocto -m yocto/manifests/default.xml
 $ repo sync

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default revision="rocko" sync-j="8"/>
+  <default revision="master" sync-j="8"/>
 
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="git://github.com" name="github"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="rocko" sync-j="8"/>
+
+  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+  <remote fetch="git://github.com" name="github"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+
+  <project remote="yocto" name="poky" revision="refs/tags/rocko-18.0.0" path="poky"/>
+  <project remote="oe" name="meta-openembedded" path="meta-openembedded"/>
+  <project remote="yocto" name="meta-intel" path="meta-intel"/>
+  <project remote="github" name="pascalhuerst/meta-nonlinear" path="meta-nonlinear"/>
+</manifest>

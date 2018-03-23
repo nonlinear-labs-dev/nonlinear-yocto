@@ -8,6 +8,6 @@
 
   <project remote="yocto" name="poky" revision="refs/tags/rocko-18.0.2" path="poky"/>
   <project remote="oe" name="meta-openembedded" revision="rocko" path="meta-openembedded"/>
-  <project remote="yocto" name="meta-intel" revision="8.1-rocko-2.4.2" path="meta-intel"/>
+  <project remote="yocto" name="meta-intel" revision="refs/tags/8.1-rocko-2.4.2" path="meta-intel"/>
   <project remote="github" name="pascalhuerst/meta-nonlinear" path="meta-nonlinear"/>
 </manifest>

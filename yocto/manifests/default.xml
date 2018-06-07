@@ -6,8 +6,9 @@
   <remote fetch="git://github.com" name="github"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
 
-  <project remote="yocto" name="poky" revision="refs/tags/rocko-18.0.2" path="poky"/>
-  <project remote="oe" name="meta-openembedded" revision="rocko" path="meta-openembedded"/>
-  <project remote="yocto" name="meta-intel" revision="refs/tags/8.1-rocko-2.4.2" path="meta-intel"/>
+  <project remote="yocto" name="poky" revision="sumo" path="poky"/>
+  <project remote="oe" name="meta-openembedded" revision="sumo" path="meta-openembedded"/>
+  <project remote="yocto" name="meta-intel" revision="sumo" path="meta-intel"/>
+  <project remote="yocto" name="meta-java" revision="sumo" path="meta-java"/>
   <project remote="github" name="pascalhuerst/meta-nonlinear" path="meta-nonlinear"/>
 </manifest>
